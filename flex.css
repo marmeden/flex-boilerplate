@@ -1,0 +1,119 @@
+.flex-element{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.inline-flex-element{
+  display: inline-flex;
+  display: -webkit-inline-flex;
+}
+
+.inline-table{
+  display: inline-table;
+}
+
+.flex-vcenter{
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-line-pack: center;
+}
+
+.flex-hcenter{
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+}
+
+.flex-fullcenter {
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -ms-flex-line-pack: center;
+}
+
+.flex-column{
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+}
+
+.flex-row{
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+}
+
+.flex-row-wrap{
+  -webkit-flex-flow: row wrap;
+flex-flow: row wrap;
+}
+
+.flex-sp-between{
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+
+.flex-sp-around{
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+}
+
+.flex-align-start{
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-line-pack: flex-start;
+}
+
+.flex-align-end{
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  -ms-flex-line-pack: flex-end;
+}
+
+.flex-self-align-center{
+    align-self: center;
+    -webkit-align-self: center;
+}
+
+.flex-just-end{
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: flex-start;
+}
+
+.flex-ul-li{
+  display: flex;
+  display: -webkit-flex;
+}
+
+.flex-ul-li-inline{
+  display: inline-flex;
+  display: -webkit-inline-flex;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.flex-grow-3{
+    flex-grow: 3;
+}
